@@ -63,6 +63,14 @@
     }
 
 @media (min-width: 576px){
+    body {
+        background-image: url(../img/slider/back01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Merienda', cursive;
+    }
+    
     /* logomarca */
     .brand {
         background-color: red;
