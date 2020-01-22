@@ -1,13 +1,14 @@
     body {
-        background-color: red;
-        /* background-image: url(../img/slider/back01.jpg); */
+        /* background-color: red; */
+        background-image: url(../img/slider/back01.jpg);
         background-position: center;
         background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size:cover;
+        -o-background-size: cover;
         background-attachment: fixed;
-        /*font-family: 'Volkhov', serif;*/
-        /*font-family: 'Merienda One', cursive;*/
         font-family: 'Merienda', cursive;
-        /*font-family: 'Lobster', cursive;*/
     }
 
     .box {
@@ -63,14 +64,14 @@
     }
 
 @media (min-width: 992px){
-    body {
-        /* background-color: yellow; */
+    /* body {
+         background-color: yellow; 
         background-image: url(../img/slider/back01.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         font-family: 'Merienda', cursive;
-    }
+    } */
     
     /* logomarca */
     .brand {
