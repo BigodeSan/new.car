@@ -1,6 +1,6 @@
     body {
         /*background-color: yellow;*/
-        background-image: url(../img/slider/back.jpg);
+        background-image: url(../img/slider/back01.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -56,6 +56,10 @@
         width: 100%;
         height: 450px;
         border: 0px;
+    }
+
+    .footer {
+        padding: 1em 0rem 1rem 0rem;
     }
 
 @media (min-width: 576px){
