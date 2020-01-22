@@ -1,6 +1,6 @@
     body {
-        /*background-color: yellow;*/
-        background-image: url(../img/slider/back01.jpg);
+        background-color: red;
+        /* background-image: url(../img/slider/back01.jpg); */
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -62,8 +62,9 @@
         padding: 1em 0rem 1rem 0rem;
     }
 
-@media (min-width: 576px){
+@media (min-width: 992px){
     body {
+        /* background-color: yellow; */
         background-image: url(../img/slider/back01.jpg);
         background-position: center;
         background-repeat: no-repeat;
