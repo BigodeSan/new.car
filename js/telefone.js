@@ -1,12 +1,12 @@
 $(document).ready(function(){
 			
-			$("#telefone").mask("(00) 0000-00009")
+			$("#validationCustom02").mask("(00) 0000-00009")
 			
-			$("#telefone").blur(function(event){
+			$("#validationCustom02").blur(function(event){
 				if ($(this).val().length == 15){
-					$("#telefone").mask("(00) 00000-0009")
+					$("#validationCustom02").mask("(00) 00000-0009")
 				}else{
-					$("#telefone").mask("(00) 0000-00009")
+					$("#validationCustom02").mask("(00) 0000-00009")
 				}
 			})
 		})
