@@ -5,7 +5,7 @@ $(function($){
 		event.preventDefault();
 
 		$.ajax({
-			url: "https://simple-form.com/sensualmdintima@gmail.com?json",
+			url: "https://simple-form.com/claudomiromonteiro@gmail.com?json",
 			method: "POST",
 			data: {
 				nome: $("#validationCustom01").val(),
