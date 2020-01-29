@@ -32,12 +32,12 @@
     }
     /*navbar*/
     .navbar {
-        background-color: red;
+        background-color: yellow;
         font-size: 1.3rem;
     }
     
     .dropdown-menu {
-        background-color: red;
+        background-color: yellow;
     }
 
     /*section*/
@@ -48,6 +48,12 @@
     /* page header */
     .page-header {
         padding: 1rem 1rem 1rem 1rem;
+    }
+
+    /* img-thumbnail */
+    .img-thumbnail{
+        width: auto;
+        height: 200px;
     }
 
     /*fotos card*/
@@ -79,7 +85,7 @@
     
     /* logomarca */
     .brand {
-        background-color: red;
+        background-color: yellow;
         text-align: center;
         padding: 10px 0px 10px 0px;
         display: block;
