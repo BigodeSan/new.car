@@ -73,8 +73,12 @@
         padding: 1em 0rem 1rem 0rem;
     }
 
+    .botao {
+        display: block;
+    }
+
     /* galery */
-    
+
 .filter-button
 {
     font-size: 18px;
@@ -137,6 +141,10 @@
     li {
         padding: 0px 20px 0px 20px;;
         }
+
+    .botao {
+        display: flex;
+    }    
     }
 
 
