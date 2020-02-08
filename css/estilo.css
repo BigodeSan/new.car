@@ -13,7 +13,7 @@
         -moz-background-size:cover;
         -o-background-size: cover;
         background-attachment: fixed;
-        font-family: 'Merienda', cursive;
+        font-family: 'Merienda One', cursive;
     }
 
     .box {
@@ -75,6 +75,16 @@
 
     .botao {
         display: block;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .msg {
+        margin-top: 1rem;
     }
 
     /* galery */
@@ -145,6 +155,15 @@
     .botao {
         display: flex;
     }    
+
+    .center {
+        margin-left: initial;
+    }
+
+    .msg {
+        margin-top: 0rem;
+    }
+
     }
 
 

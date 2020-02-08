@@ -2,7 +2,7 @@ $(function($){
 
 	$("form").submit(function(event) {
 
-		//event.preventDefault();
+		event.preventDefault();
 		
 		$.ajax({
 			url: "https://simple-form.com/claudomiromonteiro@gmail.com?json",
@@ -11,7 +11,8 @@ $(function($){
 				nome: $("#validationDefault01").val(),
 				email: $("#validationDefaultUsername").val(),
 				telefone: $("#validationDefault02").val(),
-				mensagem: $("#validationTextarea").val()
+				mensagem: $("#validationTextarea").val(),
+				assunto: $("#subject").val()
 	    },
 	    dataType: "json"
 	  
